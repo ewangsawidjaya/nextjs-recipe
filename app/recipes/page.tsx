@@ -1,3 +1,12 @@
+import Link from "next/link";
+
 export default function Page(){
-    return <p>Recipes Page</p>
+    return (
+        <div>
+            <p>Recipes Page</p>
+            <ul>
+                <li><Link href='/recipes/1'>Recipe 1</Link></li>
+            </ul>
+        </div>
+    );
 }
